@@ -296,16 +296,19 @@ img.incarousel{
 /* Style for our header texts
 * --------------------------------------- */
 /* 모바일 전용 (작은 화면) */
-@media (max-width: 767px) {
-	body {
-		font-size: 150%;
-	}
-}
-
 /* 태블릿 전용 (중간 화면) */
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
 	body {
-		font-size: 100%;
+		font-size: 180%;
+	}
+	img.inmain{
+		width: 90%;
+		height: 90%;
+		object-fit: contain;
+	}
+	img.intext{
+		width: 60%;
+		object-fit: contain;
 	}
 }
 
@@ -313,6 +316,12 @@ img.incarousel{
 @media (min-width: 1200px) {
 	body {
 		font-size: 100%;
+	}
+	img.inmain{
+		height:50vh;
+	}
+	img.intext{
+		height:30vh;
 	}
 }
 h1{
@@ -323,6 +332,13 @@ h1{
 	margin: 1em;
 }
 h2{
+	font-size: 2.5em;
+	font-family: inherit;
+	color: #fff;
+	margin: 1em;
+	opacity: 0.8;
+}
+h3{
 	font-size: 2em;
 	font-family: inherit;
 	color: #fff;
@@ -336,10 +352,13 @@ h6{
 	margin: 1em;
 	opacity: 0.8;
 }
-.section p,
-.intro p{
+.section p{
 	color: #fff;
 	opacity: 0.8;
+}
+
+.invitation{
+	font-size: 0.8em;
 }
 
 /* Centered texts in each section
