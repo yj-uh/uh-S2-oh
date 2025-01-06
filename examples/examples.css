@@ -65,15 +65,6 @@ body{
 	width: 960px;
 	position: relative;
 }
-p{
-	font-size: 1.5em;
-	margin: 1em;
-}
-.intro p{
-	/* width: 50%; */
-	margin: 0 auto;
-	font-size: 1.5em;
-}
 .section{
 	text-align:center;
 	padding: 10px 0;
@@ -353,6 +344,8 @@ h6{
 	opacity: 0.8;
 }
 .section p{
+	font-size: 1.8em;
+	margin: 1em;
 	color: #fff;
 	opacity: 0.8;
 }
