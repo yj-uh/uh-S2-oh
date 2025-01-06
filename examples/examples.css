@@ -295,6 +295,26 @@ img.incarousel{
 
 /* Style for our header texts
 * --------------------------------------- */
+/* 모바일 전용 (작은 화면) */
+@media (max-width: 767px) {
+	body {
+		font-size: 150%;
+	}
+}
+
+/* 태블릿 전용 (중간 화면) */
+@media (min-width: 768px) and (max-width: 1199px) {
+	body {
+		font-size: 100%;
+	}
+}
+
+/* 데스크톱 전용 (큰 화면) */
+@media (min-width: 1200px) {
+	body {
+		font-size: 100%;
+	}
+}
 h1{
 	font-size: 3em;
 	font-family: inherit;
@@ -311,7 +331,6 @@ h2{
 }
 h6{
 	font-size: 1.5em;
-	/* font-weight: bold; */
 	font-family: inherit;
 	color: #fff;
 	margin: 1em;
