@@ -356,6 +356,9 @@ h6{
 .invitation{
 	font-size: 0.9em;
 }
+.nobottom{
+	margin-bottom: 0;
+}
 
 /* Centered texts in each section
 * --------------------------------------- */
