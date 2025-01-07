@@ -1130,7 +1130,7 @@
       licenseKey: '',
       credits: {
         "enabled": true,
-        "label": 'Made with fullPage.js',
+        "label": 'Made by Youngjung with fullPage.js',
         "position": 'right'
       },
       //scrolling
@@ -5473,7 +5473,7 @@
     function init$1() {
       var position = getOptions().credits.position || 'right';
       var positionStyle = ['left', 'right'].indexOf(position) > -1 ? "".concat(position, ": 0;") : '';
-      var waterMark = "\n        <div class=\"fp-watermark\" style=\"".concat(positionStyle, "\">\n            <a href=\"https://alvarotrigo.com/fullPage/\" \n                rel=\"nofollow noopener\" \n                target=\"_blank\" \n                style=\"text-decoration:none; color: #000;\">\n                    ").concat(getOptions().credits.label || 'Made with fullPage.js', "\n            </a>\n        </div>\n    ");
+      var waterMark = "\n        <div class=\"fp-watermark\" style=\"".concat(positionStyle, "\">\n            <a href=\"https://alvarotrigo.com/fullPage/\" \n                rel=\"nofollow noopener\" \n                target=\"_blank\" \n                >\n                    ").concat(getOptions().credits.label || 'Made with fullPage.js', "\n            </a>\n        </div>\n    ");
       var lastSection = getLast(state.sections);
       var shouldUseWaterMark = !state.isValid || getOptions().credits.enabled;
 
