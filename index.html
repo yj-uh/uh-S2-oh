@@ -43,6 +43,32 @@
 <div id="fullpage">
   <div class="section" style="background-image:url(assets/img/background/img-10-dark.png);" >
     <h2>어영정🤵 👰 오세은</h2>
+    <button id="add-event">캘린더에 추가</button>
+
+<script>
+  document.getElementById('add-event').addEventListener('click', () => {
+    const icsContent = `
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTART:20250405T030000Z
+DTEND:20250405T040000Z
+SUMMARY:예정된 일정
+DESCRIPTION:이벤트 설명
+LOCATION:서울
+END:VEVENT
+END:VCALENDAR
+    `.trim();
+
+    const blob = new Blob([icsContent], { type: 'text/calendar' });
+    const url = URL.createObjectURL(blob);
+
+    // 브라우저에서 바로 열기
+    window.location.href = url;
+  });
+</script>
+
     <div style="margin: 2em">
       <img src="assets/yjse/300.JPG" class="rounded inmain" alt="Image"/>
     </div>
