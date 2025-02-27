@@ -70,6 +70,44 @@ body{
 	padding: 10px 0;
 	background-size: cover;
 }
+.thumbnail-bar {
+    display: flex;
+    gap: 10px; /* 썸네일 간격 */
+    overflow-x: auto; /* 가로 스크롤 가능 */
+    white-space: nowrap;
+    padding: 10px;
+    scrollbar-width: thin; /* Firefox 스크롤바 크기 줄이기 */
+    scrollbar-color: #ccc transparent; /* Firefox 스크롤바 색상 */
+	position: fixed;
+	z-index: 100;
+	bottom: 8em;
+	justify-content: center;
+}
+
+/* Webkit (Chrome, Safari) 스크롤바 스타일 */
+.thumbnail-bar::-webkit-scrollbar {
+    height: 6px; /* 스크롤바 높이 */
+}
+.thumbnail-bar::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 3px;
+}
+.thumbnail-bar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.thumb {
+    height: 80px; /* 썸네일 높이 */
+    width: auto; /* 원본 비율 유지 */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.thumb:hover {
+    transform: scale(1.1); /* 마우스 호버 시 확대 */
+}
+
 table {
     margin-left: auto;
 	margin-right: auto;
@@ -96,6 +134,7 @@ img.incarousel{
     color: white;
     text-align: center;
     padding: 10px;
+	z-index: 50;
 }
 #menu li {
 	display:inline-block;
