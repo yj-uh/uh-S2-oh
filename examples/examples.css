@@ -81,7 +81,6 @@ body{
 	position: fixed;
 	z-index: 100;
 	bottom: 8em;
-	justify-content: center;
 }
 
 /* Webkit (Chrome, Safari) 스크롤바 스타일 */
