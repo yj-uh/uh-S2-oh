@@ -311,9 +311,10 @@ Not supports in Firefox and IE */
     color: #fff;
     opacity: 0.8;
     padding: 5px 8px;
-    font-size: 1.4rem;
+    font-size: 15px;
     font-family: inherit;
     display: inline-block;
+    transform: scale(0.8);
     margin: 12px;
 }
 .fp-noscroll .fp-overflow{
