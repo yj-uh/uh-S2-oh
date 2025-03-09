@@ -311,9 +311,8 @@ Not supports in Firefox and IE */
     color: #fff;
     opacity: 0.8;
     padding: 5px 8px;
-    font-size: 14px;
+    font-size: 1.2em;
     font-family: inherit;
-    font-size:large;
     display: inline-block;
     margin: 12px;
 }
