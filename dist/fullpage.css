@@ -314,7 +314,7 @@ Not supports in Firefox and IE */
     font-size: 1.5em;
     font-family: inherit;
     display: inline-block;
-    /* transform: scale(0.8); */
+    transform: scale(0.8);
     margin: 12px;
 }
 .fp-noscroll .fp-overflow{
