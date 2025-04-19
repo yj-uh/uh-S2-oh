@@ -80,7 +80,7 @@ body{
     scrollbar-color: #ccc transparent; /* Firefox 스크롤바 색상 */
 	position: fixed;
 	z-index: 100;
-	bottom: 8em;
+	bottom: 1em;
 }
 
 /* Webkit (Chrome, Safari) 스크롤바 스타일 */
