@@ -136,10 +136,10 @@ img.incarousel{
 	z-index: 50;
 }
 .bottom-thanks{
-    position: fixed;
+    /* position: fixed; */
     /* bottom: 10vh; */
     /* left: 0; */
-	top: 60vh;
+	/* top: 60vh; */
     width: 100%;
     color: white;
     text-align: center;
