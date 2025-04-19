@@ -135,6 +135,17 @@ img.incarousel{
     padding: 10px;
 	z-index: 50;
 }
+.bottom-thanks{
+    position: fixed;
+    /* bottom: 10vh; */
+    /* left: 0; */
+	top: 60vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+	/* z-index: 50; */
+}
 #menu li {
 	display:inline-block;
 	margin: 10px;
