@@ -84,7 +84,7 @@ body{
     scrollbar-color: #ccc transparent; /* Firefox 스크롤바 색상 */
 	position: fixed;
 	z-index: 100;
-    margin-top: -400px;
+    margin-top: -300px;
 	bottom: 1em;
 }
 
@@ -385,40 +385,35 @@ img.incarousel{
 h1{
 	font-size: 3em;
 	font-family: inherit;
-	color: #000;
-	/* color: #fff; */
+	color: #fff;
 	opacity: 0.8;
 	margin: 1em;
 }
 h2{
 	font-size: 2.5em;
 	font-family: inherit;
-	/* color: #fff; */
-	color: #000;
+	color: #fff;
 	margin: 1em;
 	opacity: 0.8;
 }
 h3{
 	font-size: 1.9em;
 	font-family: inherit;
-	/* color: #fff; */
-	color: #000;
+	color: #fff;
 	margin: 0.2m;
 	opacity: 0.8;
 }
 h6{
 	font-size: 1.5em;
 	font-family: inherit;
-	/* color: #fff; */
-	color: #000;
+	color: #fff;
 	margin: 0.2em;
 	opacity: 0.8;
 }
 .section p{
 	font-size: 1.5em;
 	margin: 1em;
-	/* color: #fff; */
-	color: #000;
+	color: #fff;
 	opacity: 0.8;
 }
 
