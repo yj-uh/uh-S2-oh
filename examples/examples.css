@@ -54,7 +54,10 @@ abbr,acronym { border: 0;
 body{
 	/* font-family: arial,helvetica; */
 	/* font-family: "Roboto", sans-serif; */
-	font-family:Google Sans Text,Roboto,Arial,sans-serif;
+	/* font-family:Google Sans Text,Roboto,Arial,sans-serif; */
+	/* font-family: 'Nanum Myeongjo', serif; */
+	font-family: 'Noto Serif KR', serif;
+	font-stretch: condensed; 
 	/* font-weight: 100; */
 	color: #333;
 	color: rgba(0,0,0,0.5);
@@ -81,7 +84,7 @@ body{
     scrollbar-color: #ccc transparent; /* Firefox 스크롤바 색상 */
 	position: fixed;
 	z-index: 100;
-    margin-top: -300px;
+    margin-top: -400px;
 	bottom: 1em;
 }
 
@@ -146,7 +149,7 @@ img.incarousel{
     color: white;
     text-align: center;
     padding: 10px;
-	margin-top: -150px;
+	margin-top: -350px;
 	/* z-index: 50; */
 }
 #menu li {
