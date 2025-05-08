@@ -85,7 +85,7 @@ body{
     scrollbar-color: #ccc transparent; /* Firefox 스크롤바 색상 */
 	position: fixed;
 	z-index: 100;
-    margin-top: -300px;
+    margin-top: -290px;
 	bottom: 1em;
 }
 
@@ -150,7 +150,7 @@ img.incarousel{
     color: white;
     text-align: center;
     padding: 10px;
-	margin-top: -150px;
+	margin-top: -3em;
 	/* z-index: 50; */
 }
 #menu li {
