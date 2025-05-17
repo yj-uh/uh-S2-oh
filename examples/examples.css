@@ -404,6 +404,14 @@ h3{
 	margin: 0.2m;
 	opacity: 0.8;
 }
+.thanks{
+	/* text-shadow: 1px 1px 12px rgba(255, 255, 255, 1); */
+	text-shadow:
+    0 0 1px white,
+    0 0 2px white,
+    0 0 4px white,
+    0 0 6px white;
+}
 h6{
 	font-size: 1.5em;
 	font-family: inherit;
