@@ -407,10 +407,16 @@ h3{
 .thanks{
 	/* text-shadow: 1px 1px 12px rgba(255, 255, 255, 1); */
 	text-shadow:
-    0 0 1px white,
-    0 0 2px white,
-    0 0 4px white,
-    0 0 6px white;
+	0 0 10px white,
+    0 0 20px white,
+    0 0 20px white,
+    0 0 20px white,
+    0 0 20px white,
+    0 0 30px white,
+    0 0 30px white,
+    0 0 30px white,
+    0 0 30px white,
+    0 0 40px white;
 }
 h6{
 	font-size: 1.5em;
